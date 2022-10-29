@@ -1,4 +1,4 @@
-# current-cryptocurrencies-prices
+# Current Cryptocurrencies Prices
 
 A console application that allows you to track the current rate of the 5 most popular cryptocurrencies:
 
