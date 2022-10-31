@@ -2,9 +2,6 @@ from requests import get
 
 BASE_URL = "https://cryptingup.com/api/assets/"
 
-m = 3.300
-print(round(m, 2))
-
 
 def get_cryptocurrency(currency):
     endpoint = currency
