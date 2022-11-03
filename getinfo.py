@@ -2,6 +2,7 @@
 
 from requests import get
 
+
 BASE_URL = "https://cryptingup.com/api/assets/"
 
 
