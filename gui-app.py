@@ -28,9 +28,10 @@ def select_clicked():
                 showinfo(title="Invalid value", message=msg)
             else:
                 get_info_about_currency(user_choice)
+                answer_entry.delete(0, "end")
 
         except ValueError:
-            msg = "You can only choose a number from 1 to 6.\nDon't use letters or special characters.\n"
+            msg = "You can only choose a number from 1 to 6.\nDon't use letters or special characters."
             showinfo(title="Invalid value", message=msg)
 
 
@@ -65,7 +66,7 @@ label_visible = False
 
 answer = tk.StringVar()
 
-answer_entry = ttk.Entry(root, textvariable=answer)
+answer_entry = ttk.Entry(root, textvariable=answer, justify="center", width=12)
 answer_entry.pack()
 answer_entry.focus()
 
