@@ -1,4 +1,4 @@
-# Module for GUI app
+# Module used to downloading cryptocurrencies prices.
 
 from requests import get
 
