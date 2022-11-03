@@ -5,7 +5,7 @@ from tkinter.messagebox import showinfo
 
 
 root = tk.Tk()
-root.geometry("400x550+760+200")
+root.geometry("400x475+760+200")
 root.resizable(False, False)
 root.configure(background="#1e2224")
 root.title("Current Cryptocurrencies Prices")
