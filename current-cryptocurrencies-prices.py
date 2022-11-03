@@ -9,7 +9,8 @@ cryptocurrencies = {
     5: "BNB"}
 
 while True:
-    print(show_menu())
+    menu = show_menu()
+    print(menu)
 
     try:
         user_choice = int(input("Enter the number to get information about the price of the cryptocurrency:\n"))
@@ -20,8 +21,11 @@ while True:
             print("\nInvalid value.\nYou can only choose a number from 1 to 6.\n")
         else:
             cryptocurrency = cryptocurrencies[user_choice]
+
             information = get_cryptocurrency(cryptocurrency)
-            print(get_info(information))
+            info = get_info(information)
+            print(info)
+
             input("Press Enter to continue.\n")
 
     except ValueError:
