@@ -1,6 +1,6 @@
 # Current Cryptocurrencies Prices
 
-Current Cryptocurrencies Prices is an application that allows you to track the current rate of the 5 most popular cryptocurrencies:
+Current Cryptocurrencies Prices is an application that allows you to track the current prices of the 5 most popular cryptocurrencies:
 
 1. Bitcoin (BTC)
 2. Ethereum (ETH)
