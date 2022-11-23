@@ -26,3 +26,6 @@ Install the required packages
 pip install -r requirements.txt
 ```
 
+## App versions
+
+You can use the console version (`current-cryptocurrencies-prices.py`) of the app or the GUI version (`gui-app.py`)
