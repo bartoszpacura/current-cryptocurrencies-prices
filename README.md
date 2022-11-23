@@ -12,10 +12,15 @@ I used the free public API which doesn't require API keys or other type of authe
 https://cryptingup.com/apidoc
 
 ## Installation
+After cloning the repository follow the steps below:
 
 Create a new virtual environment.
 ```
 python -m venv myvenv
+```
+Run the virtual environment.
+```
+source /path/to/myvenv/Scripts/activate
 ```
 Upgrade pip.
 ```
