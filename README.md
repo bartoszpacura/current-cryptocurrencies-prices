@@ -21,7 +21,7 @@ Upgrade pip.
 ```
 python -m pip install --upgrade pip
 ```
-Install the required packages
+Install the required packages.
 ```
 pip install -r requirements.txt
 ```
