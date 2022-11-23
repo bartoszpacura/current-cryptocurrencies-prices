@@ -10,3 +10,19 @@ An app that allows you to track the current prices of the 5 most popular cryptoc
 
 I used the free public API which doesn't require API keys or other type of authentication:
 https://cryptingup.com/apidoc
+
+## Installation
+
+Create a new virtual environment.
+```
+python -m venv myvenv
+```
+Upgrade pip.
+```
+python -m pip install --upgrade pip
+```
+Install the required packages
+```
+pip install -r requirements.txt
+```
+
